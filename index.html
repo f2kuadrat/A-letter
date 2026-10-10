@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sepucuk- A letter is waiting for you</title>
+<title>Sepucuk- Kepada Sang Penerima</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 220'%3E%3Cpath d='M50 24H70V66C70 76 100 84 100 112V190C100 202 92 210 80 210H40C28 210 20 202 20 190V112C20 84 50 76 50 66Z' fill='%2312101a' stroke='%23b8924a' stroke-width='9'/%3E%3Crect x='51' y='4' width='18' height='19' rx='3' fill='%238a6440'/%3E%3C/svg%3E">
 <!-- Font antik (butuh internet; kalau offline otomatis memakai font cadangan) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,7 +196,7 @@ body.logo-tunggu .logo span{opacity:0;transform:translateX(-10px)}
         </div>
       </div>
     </div>
-    <p class="loader-teks">Sebuah surat sedang hanyut menujumu...</p>
+    <p class="loader-teks">Menunggu Sang Penerima...</p>
     <div class="loader-bar"><span></span></div>
   </div>
   <div class="rull" id="rull"></div>
@@ -214,13 +214,13 @@ body.logo-tunggu .logo span{opacity:0;transform:translateX(-10px)}
     <svg class="logo-ikon" id="logoIkon" viewBox="0 0 120 220" aria-hidden="true"><use href="#ikon-botol"/></svg>
     <span>Sepucuk</span>
   </a>
-  <button class="tombol-bar" id="bukaTulis">Write a Letter</button>
+  <button class="tombol-bar" id="bukaTulis">Tulis Surat</button>
 </header>
 
 <main>
   <div class="stage" id="stage">
     <div class="cahaya"></div>
-    <h1 class="judul">A letter for you</h1>
+    <h1 class="judul">Sebuah Pesan Untuk Anda</h1>
 
     <div class="amplop" id="amplop">
       <div class="belakang"></div>
@@ -248,18 +248,18 @@ body.logo-tunggu .logo span{opacity:0;transform:translateX(-10px)}
           <p class="tanda" id="tanda"></p>
         </div>
         <div class="bawah">
-          <button class="lewati" id="lewati" hidden>Skip</button>
+          <button class="lewati" id="lewati" hidden>Lewati Animasi</button>
           <div class="aksi" id="aksi">
-            <button class="tombol" id="simpan">Save Letter</button>
-            <button class="tombol" id="bagikan">Share link</button>
-            <button class="tombol" id="tulisLagi">Create Letter</button>
+            <button class="tombol" id="simpan">Simpan Surat</button>
+            <button class="tombol" id="bagikan">Bagikan Surat</button>
+            <button class="tombol" id="tulisLagi">Buat Surat</button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="pembuka">
-      <button class="buka" id="buka">Open Letter</button>
+      <button class="buka" id="buka">Buka Pesan</button>
     </div>
   </div>
 </main>
@@ -272,13 +272,13 @@ body.logo-tunggu .logo span{opacity:0;transform:translateX(-10px)}
         <path d="M50 24H70V66C70 76 100 84 100 112V190C100 202 92 210 80 210H40C28 210 20 202 20 190V112C20 84 50 76 50 66Z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
         <rect x="51" y="4" width="18" height="19" rx="3" fill="#8a6440"/>
       </svg>
-      <h2>Write your own Leetr</h2>
+      <h2>Buat Surat Anda Sendiri</h2>
     </div>
     <div>
-      <label for="nama">Sender`s Name</label>
+      <label for="nama">Nama Pengirim</label>
       <input type="text" id="nama" maxlength="40" placeholder="Contoh: Dina">
     </div>
-    <label class="cek"><input type="checkbox" id="rahasia"> Hide my name</label>
+    <label class="cek"><input type="checkbox" id="rahasia"> Sembunyikan Nama Pengirim</label>
     <div>
       <label for="teks">Isi surat</label>
       <textarea id="teks" rows="8" maxlength="1500" required placeholder="Tulis suratmu di sini..."></textarea>
@@ -286,8 +286,8 @@ body.logo-tunggu .logo span{opacity:0;transform:translateX(-10px)}
       <p class="jumlah" id="jumlah">0 / 1500</p>
     </div>
     <div class="baris">
-      <button type="button" class="tombol" id="batal">Cancel</button>
-      <button type="submit" class="tombol utama">Write</button>
+      <button type="button" class="tombol" id="batal">Batal</button>
+      <button type="submit" class="tombol utama">Tulis</button>
     </div>
   </form>
 </div>
